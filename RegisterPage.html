@@ -1,0 +1,129 @@
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Projets boissons</title>
+    <script type="text/javascript" src="inscription.js"></script>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="RegisterPage.css">
+</head>
+
+<body>
+    <div>
+        <div class="back-home">
+            <a href="/"> <img src="images/icons/home_black.svg" alt="back home" /></a>
+        </div>
+        <span id="message_box"></span>
+        <main class="page-container">
+            <div class="register">
+                <h1>Créer compte</h1>
+                <form id="form">
+                    <div class="form-row">
+                        <label for="login">Identifiant
+                            </label>
+                        <div class="input">
+                            <img src="images/icons/user.svg" alt="user icon" />
+                            <input type="text" id="identifiant" name="identifiant" />
+                        </div>
+                        <span id="username_error" class="text-danger"></span>
+                    </div>
+                    <div class="form-row">
+                        <label for="password">Mot de passe 
+                            </label>
+                        <div class="input">
+                            <img src="images/icons/password.svg" alt="user icon" />
+                            <input type="password" id="motdepasse" name="motdepasse" />
+                        </div>
+                        <span id="password_error" class="text-danger"></span>
+                    </div>
+                    <div class="form-row">
+                        <label for="nom">Nom
+                            </label>
+                        <div class="input">
+                            <img src="images/icons/user.svg" alt="nom icon" />
+                            <input type="text" id="nom" name="nom" />
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <label for="prenom">Prenom
+                            </label>
+                        <div class="input">
+                            <img src="images/icons/prenom.svg" alt="prenom icon" />
+                            <input type="text" id="prenom" name="prenom" />
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <label for="sexe">Sexe
+                            </label>
+                        <div class="input">
+                            <img src="images/icons/password.svg" alt="sexe icon" />
+                            <select name="sexe" id="sexe">
+                                    <option value="">--Choisir un sexe--</option>
+                                    <option value="homme">Homme</option>
+                                    <option value="femme">Femme</option>
+                                </select>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <label for="email">Email
+                            </label>
+                        <div class="input">
+                            <img src="images/icons/email.svg" alt="email icon" />
+                            <input type="text" id="email" name="email" />
+                        </div>
+                        <span id="email_error" class="text-danger"></span>
+                    </div>
+                    <div class="form-row">
+                        <label for="birth">Date de naissance 
+                            </label>
+                        <div class="input">
+                            <img src="images/icons/birth.svg" alt="birth icon" />
+                            <input type="date" id="datenaissance" name="dateNaissance" />
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <label for="adresse">Adresse
+                            </label>
+                        <div class="input">
+                            <img src="images/icons/adresse.svg" alt="adresse icon" />
+                            <input type="text" id="adresse" name="adresse" />
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <label for="codePostal">Code postal
+                            </label>
+                        <div class="input">
+                            <img src="images/icons/postal.svg" alt="postal icon" />
+                            <input type="text" id="postal" name="postal" />
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <label for="ville">Ville
+                            </label>
+                        <div class="input">
+                            <img src="images/icons/ville.svg" alt="ville icon" />
+                            <input type="text" id="ville" name="ville" />
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <label for="phone">Numéro de téléphone
+                            </label>
+                        <div class="input">
+                            <img src="images/icons/password.svg" alt="phone icon" />
+                            <input type="text" id="phone" name="phone" />
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <button type="submit" id="btn_register" class="btn btn-primary" onclick="inscription();">
+                            Créer le compte ?
+                        </button>
+                    </div>
+                    <a id="link" href="ConnexionPage.html">Vous possédez déjà un compte ?</a>
+                </form>
+            </div>
+        </main>
+        <Footer />
+    </div>
+</body>
+
+</html>

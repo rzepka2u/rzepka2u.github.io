@@ -1,0 +1,76 @@
+.register {
+    display: block;
+    margin: auto;
+    margin-top: 6rem;
+    width: 30rem;
+    max-width: 100%;
+    background-color: rgb(250, 245, 245);
+    border-radius: 5px;
+    padding: 2rem;
+    box-shadow: 5px 5px 5px 3px rgba(204, 196, 196, .5);
+}
+
+.register * {
+    width: 100%;
+}
+
+.register form {
+    max-width: 20rem;
+    margin: 0 auto;
+}
+
+.register .form-row {
+    margin-bottom: 2rem;
+}
+
+.register>p {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+#link {
+    text-align: center;
+}
+
+.register .input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+}
+
+.register .input>*:last-child {
+    flex-grow: 1;
+}
+
+.register .input * {
+    display: inline-block;
+    width: auto;
+}
+
+.register .input img {
+    height: 1rem;
+    margin-left: 0.5rem;
+}
+
+.register label {
+    margin-bottom: 0.25rem;
+}
+
+.register label .flash {
+    padding: 0;
+}
+
+.register h1 {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+#message_box {
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.text-danger {
+    color: crimson;
+}

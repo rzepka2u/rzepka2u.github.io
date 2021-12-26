@@ -1,0 +1,76 @@
+.connexion {
+    display: block;
+    margin: auto;
+    margin-top: 6rem;
+    width: 30rem;
+    max-width: 100%;
+    background-color: rgb(250, 245, 245);
+    border-radius: 5px;
+    padding: 2rem;
+    box-shadow: 5px 5px 5px 3px rgba(204, 196, 196, .5);
+}
+
+.connexion * {
+    width: 100%;
+}
+
+.connexion form {
+    max-width: 20rem;
+    margin: 0 auto;
+}
+
+.connexion .form-row {
+    margin-bottom: 2rem;
+}
+
+.connexion>p {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+#link {
+    text-align: center;
+}
+
+.connexion .input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+}
+
+.connexion .input>*:last-child {
+    flex-grow: 1;
+}
+
+.connexion .input * {
+    display: inline-block;
+    width: auto;
+}
+
+.connexion .input img {
+    height: 1rem;
+    margin-left: 0.5rem;
+}
+
+.connexion label {
+    margin-bottom: 0.25rem;
+}
+
+.connexion label .flash {
+    padding: 0;
+}
+
+.connexion h1 {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+#message_box {
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.text-danger {
+    color: crimson;
+}

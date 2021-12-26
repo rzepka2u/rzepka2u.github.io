@@ -1,0 +1,52 @@
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Projets boissons</title>
+    <script type="text/javascript" src="connexion.js"></script>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="ConnexionPage.css">
+</head>
+
+<body>
+    <div>
+        <div class="back-home">
+            <a href="/"> <img src="images/icons/home_black.svg" alt="back home" /></a>
+        </div>
+        <span id="message_box"></span>
+        <main class="page-container">
+            <div class="connexion">
+                <h1>Créer compte</h1>
+                <form id="form">
+                    <div class="form-row">
+                        <label for="login">Identifiant
+                            </label>
+                        <div class="input">
+                            <img src="images/icons/user.svg" alt="user icon" />
+                            <input type="text" id="identifiant" name="identifiant" />
+                        </div>
+                        <span id="username_error" class="text-danger"></span>
+                    </div>
+                    <div class="form-row">
+                        <label for="password">Mot de passe 
+                            </label>
+                        <div class="input">
+                            <img src="images/icons/password.svg" alt="user icon" />
+                            <input type="password" id="motdepasse" name="motdepasse" />
+                        </div>
+                        <span id="password_error" class="text-danger"></span>
+                    </div>
+                    <div class="form-row">
+                        <button type="submit" id="btn_connexion" class="btn btn-primary" onclick="connexion();">
+                                Se connecter
+                        </button>
+                    </div>
+                    <a id="link" href="RegisterPage.html">Vous ne possédez pas de compte ?</a>
+                </form>
+            </div>
+        </main>
+        <Footer />
+    </div>
+</body>
+
+</html>
